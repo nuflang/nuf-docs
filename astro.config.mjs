@@ -14,7 +14,7 @@ export default defineConfig({
 				github: 'https://github.com/nuflang/nuf',
 			},
       editLink: {
-        baseUrl: 'https://github.com/nuflang/nuf-docs',
+        baseUrl: 'https://github.com/nuflang/nuf-docs/tree/main',
       },
 			sidebar: [],
 		}),
