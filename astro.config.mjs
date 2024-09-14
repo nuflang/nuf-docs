@@ -6,23 +6,17 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Nuf',
+      logo: {
+        src: './src/assets/logo.svg',
+      },
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/nuflang/nuf',
 			},
-			sidebar: [
-				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
-			],
+      editLink: {
+        baseUrl: 'https://github.com/nuflang/nuf-docs',
+      },
+			sidebar: [],
 		}),
 	],
 });
